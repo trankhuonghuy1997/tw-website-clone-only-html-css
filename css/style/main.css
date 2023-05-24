@@ -1,0 +1,570 @@
+/* Css header top */
+.main
+.header {}
+
+.header__top-inner{
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    height: 20px;
+}
+.hear__top {
+    background-color: #EEEEEE;
+    padding: 7px 10px;
+    
+}
+.header__top-address {
+    font-size: 14px;
+    line-height: 20px;
+}
+.header__top-email {
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.header__top-email-text {
+    margin-right: 20px;
+}
+.vi-flag {
+    margin: 0 5px;
+}
+
+/* css header body */
+.header__body-img {
+    max-width:270px  ;
+    display: block;
+}
+
+.header__body-title {
+    color: var(--main-color);
+    font-weight: 700;
+}
+.header__body-contact {
+    display: flex;
+}
+.hotline247 {
+    font-size: 20px;
+}
+.hotline-number {
+    color: var(--main-color);
+    font-size: 22px;
+    font-weight: 700;
+
+}
+/* css navigation */
+.header__navigation {
+    background-color: var(--background-color);
+}
+
+.header__menu {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 48px;
+
+}
+
+.header__menu-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__menu-items li {
+    list-style: none;
+}
+.header__menu-items >li > a {
+    color: var(--white-color);
+    text-decoration: none;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding: 11px 43px 13px 43px;
+
+}
+
+.general{
+    color: var(--white-color);
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    text-transform: uppercase;
+    background-color: var(--background-color);
+    position: absolute;
+    min-width: 300px;
+    animation: appere ease-in 0.3s;
+    display: none;
+}
+.general a   {
+    text-decoration: none;
+    color: var(--white-color);
+    min-width: 250px;
+    display: block;
+    padding-top: 10px;
+    line-height: 46px;
+    border-bottom: 1px solid #999;
+}
+.general-text {
+    margin-left: 10px;
+}
+.general li:hover a {
+    color: var(--main-color);
+}
+.header__menu-item{
+    line-height: 48px;
+    align-items: center;
+    border-right: 1px solid #999;
+    position: relative;
+}
+.header__menu-item:hover {
+    background-color: var(--main-color);
+}
+/* general infor */
+
+.header__menu-general:hover ~.general-infor {
+    display: block;
+}
+/* service */
+.header__menu-service:hover ~.service-infor {
+    display: block;
+}
+
+/* project */
+.header__menu-project:hover ~.project-infor {
+    display: block;
+}
+
+/* news */
+.header__menu-news:hover ~.news {
+    display: block;
+}
+
+.general {
+    position: absolute;
+
+}
+
+/* slider */
+.slider__img {
+    width: 100%;    
+}
+
+/* container about */
+.container__about {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding: 40px 0;
+}
+
+
+.about__left {
+    width: 50%;
+    padding-right: 16px;
+}
+.left__title {
+    color: #46565F;
+    font-size: 35px;
+    text-transform: uppercase;
+    min-height: 63px;
+    background: url(/css/img/title_gt.png) left center no-repeat;
+    background-size: 40px 100%;
+    padding: 10px 0px 10px 25px;
+    line-height: 40px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.title__index-about {
+    margin-bottom: 10px;
+    color: #000000;    
+    font-size: 18px;
+    font-weight: 100;
+
+}
+.about__paragraph {
+    line-height: 1.7;
+    color: #3A3A3A;
+    font-size: 14px;
+    margin-bottom: 30px;
+
+}
+.about__btn:hover {
+    cursor: pointer;
+    background-color: #445660;
+   
+}
+.about__right{
+    width: 50%;
+}
+.about__img {
+    width: 100%;
+}
+
+
+.container__main-service {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.main-service-title {
+    color: var(--main-color);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 50px;
+    text-transform: uppercase;
+    border-top: 0.5px solid #999;
+    border-bottom: 0.5px solid #999;
+
+}
+.main-service-items {
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-service-item{
+    border: 0.5px solid #999;
+}
+.img{
+    padding: 16px;
+}
+
+.title{
+    padding: 0 16px;
+    text-align: center;
+}
+
+.paragraph{
+    padding: 32px 16px 0 16px;
+    text-align: center;
+
+}
+
+.container-btn{
+    margin: 16px auto;
+    display: block;
+}
+
+.container__project{
+    background-image: url(https://lesilets.com/wp-content/uploads/2018/04/1096907-cool-dark-background-2560x1600-for-tablet.jpg);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.container__project-title {
+    text-align: center;
+    color: var(--white-color);    
+}
+
+.all-project-list {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
+}
+
+.all-project-list .all-project-item{
+    color: var(--white-color);
+    list-style: none;
+    margin: 0 8px;
+    display: block;
+    padding: 0px 10px;   
+    border-radius: 24px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.all-project-list .all-project-item:hover {
+    background-color: var(--main-color);
+}
+
+.container__project-infor {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.project-img {
+    max-width: 100%;
+}
+
+.project-name {
+    color: var(--white-color);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 30px;
+}
+
+.see-more-project {
+    text-align: center;
+    max-width: 300px;
+    display: block;
+    font-size: 16px;
+    color: var(--white-color);
+    padding: 8px 0;
+    border-radius: 10px;
+    border: 1px solid var(--white-color);
+    margin: 16px auto;
+
+}
+
+.see-more-project:hover {
+    background-color: var(--main-color);
+    cursor: pointer;
+}
+
+
+.container__library-title {
+    padding-top: 40px;
+    border: none;
+}
+
+.container__library{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+  
+
+.container__library-text {
+    margin-bottom: 10px;
+    color: #000000;    
+    font-size: 18px;
+    font-weight: 100;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.library-content {
+    max-width: 100%;
+    display: flex;
+}
+
+.library-content-left{
+    position: relative;
+
+}
+.company-img {
+    max-width: 100%;
+    display: block;
+    position: relative;
+}
+.img-videoicon {
+    position: absolute;
+    top: calc(50% - 140px);
+    left: calc(50% - 40px);
+    max-width: 100px;
+    height: 100px;
+}
+.company-title, 
+.geoloy-survey {
+    color: #444444;
+    font-size: 18px;
+    padding: 20px 0;
+
+}
+
+.company-para {
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 20px 0;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.geo-survey-album {
+    margin-left: 20px;
+    width: 50%;
+}
+.library-content-right {
+    position: relative;
+
+}
+.img-imgicon {
+    position: absolute;
+    top: 10px;
+    right: 290px;
+    max-width: 60px;
+    height: 43px;
+}
+
+.geoloy-survey {
+    margin-left: 20px;
+}
+
+.container__news{
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding-bottom: 40px;
+}
+
+.container-news-content {
+    display: flex;
+}
+.container__news-title {
+    border: none;
+   
+}
+.container__news-item {
+    display: flex;
+    flex-wrap: wrap;
+}
+.new-img {
+    max-width: 100%;
+}
+.news-title1 {
+    font-size: 25px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.8);
+
+}
+.news-para {
+    padding: 10px 0;
+    color: rgba(0, 0, 0, 0.6);
+}
+.news-title2 {
+    font-size: 14px;
+    font-weight:100;
+    color: rgba(0, 0, 0, 0.6);
+}
+.news-title3 {
+    font-size: 20px;
+    font-weight:300;
+    color: rgba(0, 0, 0, 0.8);
+    padding: 16px 0;
+    display: block;
+    border-bottom: 1px solid #999;
+}
+
+.news-title1:hover,
+.news-title2:hover,
+.news-title3:hover {
+    color: var(--main-color);
+    cursor: pointer;
+    display: block;
+}
+
+.container__member{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container__member-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+.container__member-title {
+    border: none;
+}
+.member-list, .member1, .member2 {
+    text-decoration: none;
+
+}
+
+.more-icon {
+    font-size: 20px;
+    color: var(--black-color);
+}
+.twnorth, .gcsc {
+    max-width: 180px;
+    margin-left: 20px;
+    padding-left: 30px;
+}
+
+
+
+
+
+
+
+
+.footer {    
+    background-image: url(https://lesilets.com/wp-content/uploads/2018/04/1096907-cool-dark-background-2560x1600-for-tablet.jpg);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.footer__content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.contact, .about__us {
+    border: none;
+    padding: 40px 0;
+}
+.company {
+    color: var(--main-color);
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.contact-infor {
+    color: var(--white-color);
+    line-height: 2;
+    font-size: 14px;
+}
+.bold {
+    font-weight: 700;
+    text-shadow: 1px 0.5px var(--white-color);
+    padding-right: 10px;
+}
+.contact__media-img {
+    max-width: 30px;
+    margin: 10px 0 10px 6px;
+    
+}
+.about__us {
+    display: flex;
+}
+.about__us-title {
+    color: var(--white-color);
+}
+.about__us-listitems {
+    padding-top: 20px;
+    float: left;
+}
+.about__us-listitems a {
+    color: var(--white-color);
+    list-style: none;
+    text-decoration: none;
+    line-height: 30px;
+    cursor: pointer;
+}
+.about__us-listitems a:hover {
+    color: yellow;
+    cursor: pointer;
+}
+.listitems {
+    padding-right: 20px;
+    color: var(--white-color);
+}
+.about__us-map {
+    float: right;
+}
+.about__us-map iframe {
+    height: 200px;
+    max-width: 300px;
+}
+
+
+@keyframes appere {
+    from{
+        height: 0;
+        opacity: 0;
+    }
+    to {
+        height: fit-content;
+        opacity: 1;
+    }
+}
